@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("4.jpg") ;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
+
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 4px;
+	
+}
+.button{
+	position: absolute;
+	top:70%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color: #fff;
+ 
+}
+.btn{
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+
+}
+.btn:hover{
+	color: #000;
+	background-color:  #fff;
+}
+

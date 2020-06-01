@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #a8d0e6;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.love{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.love h1{
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+}
+.love h2{
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+
+
+.click{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.click h2{
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+video{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.love .img{
+	position: absolute;
+	height: 80vh;
+	top: 210%;
+	left: 180%;
+	opacity: 50%;
+}
+.link{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
